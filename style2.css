@@ -1,0 +1,254 @@
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #333333;
+    max-width: 100vh;
+    font-size: 80%;
+    }
+
+/* header{
+    width: 100%;
+    height: 3rem;
+    background-color: #333333;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+footer{
+    width: 100%;
+    height: 40rem;
+    background-color: #333333;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer>p>a{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+footer>p{
+    margin: 2rem;
+}
+/* .footer-space{
+    width: 100%;
+    height: 10rem;
+    background-color: #333333;
+} */
+
+section.section1{
+    height: 110vh;
+    /* width: 100vw; */
+    background: url(./img/はね.png)
+    no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+.section1:before{
+    content: '';
+    background: inherit;
+    filter: blur(1px);
+    /* -webkit-filter: blur(5px); */
+    /* -moz-filter: blur(5px); */
+    /* -o-filter: blur(5px); */
+    /* -ms-filter: blur(5px); */
+    /* filter: blur(5px); */
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+.section1-txt{
+    font-size: 350%;
+    margin: 8rem 1rem 1rem 1rem;
+
+}
+
+section.section1-1{
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    background-color: lightgray;
+}
+
+section.section2{
+    /* height: 100Vh; */
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    background-color: lightgray;
+}
+section.section3{
+    /* height: 100Vh; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: lightgray;
+}
+
+
+section.section9{
+    height: 200vh;
+    background-color: silver;
+}
+
+
+
+.eff-fadein {
+    opacity : 0;
+    transform : translate(0, 30px);
+    transition : all 1000ms;
+}
+    
+.eff-fadein.eff-scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+.sticky{
+    background: skyblue;
+    position: sticky;
+    top: 30px;
+}
+
+.box{
+    /* position: relative; */
+    /* width : 10rem; */
+    /* height: 10rem; */
+    /* margin: 1rem; */
+    background-color: cadetblue;
+}
+.img-txt{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .img-txt-hover{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    color: #333333;
+    text-align: center;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition : all 1000ms;
+} */
+/* .img-txt-h3{
+    display: none;
+} */
+/* .img-txt-h3-hover{
+    display: sd;
+} */
+.box-wrapper{
+    margin: 4rem 0;
+}
+#box-wrapper-1{
+    width: 100%;
+    height: 13rem;
+    position: relative;
+}
+#box-wrapper-2{
+    width: 100%;
+    height: 20rem;
+    position: relative;
+}
+#box-wrapper-3{
+    width: 100%;
+    height: 11rem;
+    position: relative;
+}
+#box-wrapper-4{
+    width: 100%;
+    height: 11rem;
+    position: relative;
+}
+#box01{
+    width : 19rem;
+    height: 14rem;
+    position: absolute;
+
+
+}
+#box02{
+    width : 13rem;
+    height: 20rem;
+    position: absolute;
+
+    right: 0rem;
+
+}
+#box03{
+    width : 11rem;
+    height: 11rem;
+    position: absolute;
+
+    left: 1rem;
+}
+#box04{
+    width : 18rem;
+    height: 11rem;
+    position: absolute;
+
+    right: 0rem;
+
+}
+.main-txt{
+    margin: 1rem;
+    margin-bottom: 10rem;
+    color:#333333;
+    padding: 0.3rem;
+    border-top: 0.3rem dotted #333333;
+}
+.main-txt-about-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-txt-about-wrapper>p{
+    /* text-align: center; */
+    margin-top: 3rem;
+    font-size: 1rem;
+
+
+    
+}
+
+
+.sns{
+    margin: 1rem;
+    text-align: center;
+
+}
+.fa-twitter{
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #333333;
+    text-align: center;
+
+}
+.hidden{
+    visibility:hidden;
+}
