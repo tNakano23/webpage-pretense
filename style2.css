@@ -37,10 +37,13 @@ footer>p{
     height: 10rem;
     background-color: #333333;
 } */
+.white-line{
+    
+}
 
 section.section1{
     height: 110vh;
-    /* width: 100vw; */
+    width: 100%;
     background: url(./img/はね.png)
     no-repeat center;
     background-size: cover;
